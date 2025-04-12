@@ -22,9 +22,13 @@ minikube mount "Directorio de la página web donde hiciste el clone":/mnt/web
 Dirigete con la consola a la carpeta donde hayas guardado los manifiestos y ejecuta los siguientes comandos en orden:
 
 kubectl apply -f volumen/pv.yaml
+
 kubectl apply -f volumen/pvc.yaml
+
 kubectl apply -f desplegar/web-deployment.yaml
+
 kubectl apply -f desplegar/web-deployment-direct.yaml
+
 kubectl apply -f servicio/web-service.yaml
 
 5) Obtener el nombre del pod.

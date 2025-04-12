@@ -11,7 +11,7 @@ Paso a paso
 Clona el repositorio este tiene la web estatica y los manifiestos de configuración para desplegar la página en el cluster:
 git clone https://github.com/ChirinoFrancisco/TPK8S
 
-2) Arranca Minikube utilizando un perfil personalizado y asegúrate de activar el metrics-server:
+2) Arranca Minikube usando el sigueinte comando:
 minikube start
 
 3) Montar la carpeta que contiene la página al pod.
